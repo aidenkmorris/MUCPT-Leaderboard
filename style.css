@@ -1,0 +1,33 @@
+body {
+    background-color: #002856;
+    color: #fff;
+    
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+
+    text-align: center;    
+    display: flex;
+    flex-direction: column;
+
+    padding: 0 0;
+    margin: 0 0;
+}
+
+header {
+    background-color: #001745;
+    text-align: center;
+}
+
+table, th, td {
+    border: 2px solid #fff;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+}
+
+#leaderboard {
+    margin: 20px auto;
+    font-size: 24px;
+}
